@@ -3448,7 +3448,7 @@ footer.row {
 }
 
 .product-desc {
-    float: left;
+    /*float: left;*/
     width: calc(100% - 457px);
     padding: 48px 37px 40px 35px;
     overflow-x: hidden;

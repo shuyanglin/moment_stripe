@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Moment - compete with yourself</title>
-    <script src="/cdn-cgi/apps/head/-mEFVS8y7qx5pVzWHQTCQu5gnVM.js"></script>
+    <link href="global.css" rel="stylesheet" >
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="/client.js" defer></script>
+
+    
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
     <link href="https://demo.web3canvas.com/themeforest/proland/css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="https://demo.web3canvas.com/themeforest/proland/css/plugins/font-awesome.min.css" rel="stylesheet">
@@ -21,11 +25,12 @@
     <!-- <link href="https://demo.web3canvas.com/themeforest/proland/css/style.css" rel="stylesheet"> -->
     <link href="mystyle.css" rel="stylesheet">
     <link href="blue-orange.css" rel="stylesheet">
-    <link href="cool.css" rel="stylesheet">
+    
     <!--[if lt IE 9]>
     <script src="js/lib/html5shiv.min.js"></script>
     <script src="js/lib/respond.min.js"></script>
     <![endif]-->
+  
 </head>
 
 <body class="home" data-scroll-animation="true">
@@ -331,312 +336,7 @@
             </div>
         </div>
     </section>
-    
-   <!--  <section class="row our-collection">
-        <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>Our Collection</h2>
-                <p>You are unique. You have unique style and you need a unique watch for you. Choose from our collection of watches.</p>
-            </div>
-            <div class="row collections">
-                <div class="col-sm-6 col-md-3 item wow fadeIn">
-                    <div class="row m0 featured-img">
-                        <img src="images/collection-1.jpg" alt="">
-                    </div>
-                    <h4 class="title">Watch Limited Edition</h4>
-                    <h5 class="category">Stainless steel case</h5>
-                    <h4 class="price">$399</h4>
-                    <a href="#product-choose" class="btn">CHOOSE</a>
-                </div>
-                <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay="0.5s">
-                    <div class="row m0 featured-img">
-                        <img src="images/collection-2.jpg" alt="">
-                    </div>
-                    <h4 class="title">Watch Bracelet</h4>
-                    <h5 class="category">White strap &amp; Stainless steel</h5>
-                    <h4 class="price">$299</h4>
-                    <a href="#product-choose" class="btn">CHOOSE</a>
-                </div>
-                <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay="1s">
-                    <div class="row m0 featured-img">
-                        <img src="images/collection-3.jpg" alt="">
-                    </div>
-                    <h4 class="title">Watch Original</h4>
-                    <h5 class="category">The FirstWatch ever released</h5>
-                    <h4 class="price">$249</h4>
-                    <a href="#product-choose" class="btn">CHOOSE</a>
-                </div>
-                <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay="1.5s">
-                    <div class="row m0 featured-img">
-                        <img src="images/collection-4.jpg" alt="">
-                    </div>
-                    <h4 class="title">Watch Soprts Edition</h4>
-                    <h5 class="category">Water proof and Fitness tracking</h5>
-                    <h4 class="price">$399</h4>
-                    <a href="#product-choose" class="btn">CHOOSE</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="row the-watch">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1 text-center the-watch-img wow zoomIn">
-                    <img src="images/the-watch.png" alt="" class="img-responsive">
-                </div>
-                <div class="col-md-6 the-watch-features">
-                    <div class="row section-header v3 wow fadeIn">
-                        <h2>The Watch</h2>
-                        <p>With an image in the side of this conetent, you can use this section to write about some cool thing about your product or its features.</p>
-                    </div>
-                    <ul class="nav">
-                        <li class="wow fadeIn" data-wow-delay="0.2s">Compatible with all devices</li>
-                        <li class="wow fadeIn" data-wow-delay="0.4s">Android and iOS Support</li>
-                        <li class="wow fadeIn" data-wow-delay="0.6s">Activity &amp; Health Tracker</li>
-                        <li class="wow fadeIn" data-wow-delay="0.8s">Read &amp; reply to messages</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="row split-columns">
-        <div class="row m0 split-column wow fadeIn">
-            <div class="col-sm-6 image text-right">
-                <img src="images/split-1.jpg" alt="">
-            </div>
-            <div class="col-sm-6 texts">
-                <div class="texts-inner row m0">
-                    <h2>Every Apps you wanted</h2>
-                    <p>You won’t just send and receive messages, calls, and mail more easily and efficiently. You’ll express yourself in unique, fun, and more personal ways. Communicating with Watch is discreet, sophisticated, and nuanced. a whole new way to connect with others.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row m0 split-column wow fadeIn">
-            <div class="col-sm-6 col-sm-push-6 image">
-                <img src="images/split-2.jpg" alt="">
-            </div>
-            <div class="col-sm-6 col-sm-pull-6 texts">
-                <div class="texts-inner row m0">
-                    <h2>Health and Fitness</h2>
-                    <p>Fitness isn’t just about running, biking, or hitting the gym. It’s also about being active throughout the day. Watch measures all the ways you move, such as walking the dog, taking the stairs, or playing with your kids. It even keeps track of when you stand up.</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-   <!--  <section class="row reviews" id="reviews">
-        <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>Reviews</h2>
-                <p>Don’t take our word,. See what our experts says about the watch. We have got over 1000s of positive reviews.</p>
-            </div>
-            <div class="row">
-                <div class="review col-sm-4 wow fadeIn">
-                    <img src="images/quote.png" alt="" class="review-sign">
-                    <p>The Watch is the nicest smartwatch available, but it's more status symbol than wearable revolutionary. Most of the Watch's features are great.</p>
-                    <img src="images/reviewer1.png" alt="" class="reviewer">
-                </div>
-                <div class="review col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-                    <img src="images/quote.png" alt="" class="review-sign">
-                    <p>Watch is the most ambitious, well constructed smartwatch ever seen, but first-gen shortfalls make it feel more like a fashionable toy than a necessary tool.</p>
-                    <img src="images/reviewer2.png" alt="" class="reviewer">
-                </div>
-                <div class="review col-sm-4 wow fadeIn" data-wow-delay="0.6s">
-                    <img src="images/quote.png" alt="" class="review-sign">
-                    <p>Watch is the best smartwatch we’ve used, and the first that feels friendly and has character. Watch OS 2.0 adds needed app and Siri abilities.</p>
-                    <img src="images/reviewer3.png" alt="" class="reviewer">
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="row  featured-on">
-        <div class="container">
-            <div class="row">
-                <h3>As featured on</h3>
-                <ul class="nav nav-justified">
-                    <li class="wow fadeInUp" data-wow-delay="0.2s"><img src="images/featured1.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="0.4s"><img src="images/featured2.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="0.6s"><img src="images/featured3.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="0.8s"><img src="images/featured4.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="1s"><img src="images/featured5.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="1.2s"><img src="images/featured6.png" alt=""></li>
-                </ul>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="row faqs">
-        <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>faq</h2>
-                <p>Got questions? We’ve got answers. If you have some other questions, feel free to send us an email to <a href="#"><span class="__cf_email__" data-cfemail="d7bfb2bbbbb897a7a5b8b3a2b4a3f9b4b8ba">[email&#160;protected]</span></a></p>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 faq wow fadeInUp">
-                    <h4>What is Watch? How it works?</h4>
-                    <p>Watch took center stage at this year's Product Show with a preview of watch OS 2. The next generation of Watch software is packed with features that just might turn the device from a nice-to-have into a must-have. If you already own an Apple Watch, you'll have to live with the old software until fall. You’ll love it at the first use.</p>
-                </div>
-                <div class="col-sm-6 faq wow fadeInUp">
-                    <h4>How the watch is made?</h4>
-                    <p>Watch has an anodized aluminum case (which is lighter than stainless steel) in silver or space gray, and the face is Ion-X glass, which also designed to be hard and rugged (as well as a little bit lighter) than the sapphire. It’s definitely the lightest of the three Apple Watch editions, making it an ideal exercise companion. </p>
-                </div>
-                <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.3s">
-                    <h4>Can I swap out the watch band?</h4>
-                    <p>Absolutely. Watch comes with six bands that are easy to mix and match any band with any watch. You can swap them out as your heart desires without the aid of any tools—as long as the band and watch are the same size. (The Leather Loop band, for example, only fits 42mm watches, not the smaller 38mm size.) </p>
-                </div>
-                <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.3s">
-                    <h4>So it’s a watch and a fitness tracker?</h4>
-                    <p>The accelerometer lets the watch count your steps, and it extrapolate distance on its own, or rely on the GPS in the paired Phone to trace your exact route. That step data comes in handy for two of the apps included on the watch: Activity and Workout. Both of the watch’s fitness apps sync data back to the Health and Fitness apps on your Phone.</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="row tech-specs">
-        <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>tech specs</h2>
-                <p>Need more info? Please have a look at the tech specs of the watch. We’ve used Latest technology &amp; quality materials</p>
-            </div>
-            <div class="row tech-specs-row">
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="0s">
-                    <h4>Compatibility</h4>
-                    <ul class="nav">
-                        <li>iPhone iOS 7 &amp; up</li>
-                        <li>Android 4.3 &amp; uptexts</li>
-                        <li>Bluetooth 4.0</li>
-                        <li>Notification for calls / texts</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="0.3s">
-                    <h4>App</h4>
-                    <ul class="nav">
-                        <li>Set daily goals</li>
-                        <li>Analyze history</li>
-                        <li>Sync to phone &amp; cloud</li>
-                        <li>Connect to Apple health kit</li>
-                        <li>Connect to Google fit</li>
-                        <li>Watch firmware upgrade</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="0.6s">
-                    <h4>Vibration silent alarms</h4>
-                    <ul class="nav">
-                        <li>Phone notifications</li>
-                        <li>Daily goal reached</li>
-                        <li>Daily wake-up alarm</li>
-                        <li>Location assistance</li>
-                        <li>Accessiblity features</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="0.9s">
-                    <h4>Watch</h4>
-                    <ul class="nav">
-                        <li>12.6mm thickness</li>
-                        <li>3.16L stainless steel case</li>
-                        <li>40mm diameter</li>
-                        <li>5 ATM water resistant</li>
-                        <li>Sapphire glass crystal</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="1.2s">
-                    <h4>Straps</h4>
-                    <ul class="nav">
-                        <li>Italian leather with natural lining</li>
-                        <li>Comfort sport fabric</li>
-                        <li>Quick-release pins</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="1.5s">
-                    <h4>Activity tracking</h4>
-                    <ul class="nav">
-                        <li>Step counting</li>
-                        <li>Distance</li>
-                        <li>Calories burned</li>
-                        <li>Swimming (strokes)</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="1.8s">
-                    <h4>Timekeeping</h4>
-                    <ul class="nav">
-                        <li>Swiss ETA movement</li>
-                        <li>Accurate, reliable</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="2.1s">
-                    <h4>Battery power</h4>
-                    <ul class="nav">
-                        <li>Standard CR2025 6+ months</li>
-                        <li>Standard 364 for timekeeping 5+ years</li>
-                        <li>Solar Power available as aupgrade</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="2.4s">
-                    <h4>Sensors</h4>
-                    <ul class="nav">
-                        <li>MEMS 3-axis accelerometer</li>
-                        <li>Highly accurate</li>
-                        <li>Low power consumption</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row tech-specs-row">
-            </div>
-            <div class="row tech-specs-row">
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="row team">
-        <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>meet the team</h2>
-                <p>We are a small group of inverntors, hackers and designers from the differrent parts of the world on a mission.</p>
-            </div>
-            <div class="row team_members">
-                <div class="col-md-3 col-sm-6 member wow fadeInUp">
-                    <div class="row m0 inner">
-                        <div class="row m0 image">
-                            <img src="images/team-1.jpg" alt="">
-                        </div>
-                        <div class="texts row m0">
-                            <h4>Gary Elliott</h4>
-                            <h5>Co-Founder and CEO</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 member wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="row m0 inner">
-                        <div class="row m0 image">
-                            <img src="images/team-2.jpg" alt="">
-                        </div>
-                        <div class="texts row m0">
-                            <h4>Jeffrey Allen</h4>
-                            <h5>Co-Founder and CTO</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 member wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="row m0 inner">
-                        <div class="row m0 image">
-                            <img src="images/team-3.jpg" alt="">
-                        </div>
-                        <div class="texts row m0">
-                            <h4>Sara Mendez</h4>
-                            <h5>Lead Developer, Hacker</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 member wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="row m0 inner">
-                        <div class="row m0 image">
-                            <img src="images/team-4.jpg" alt="">
-                        </div>
-                        <div class="texts row m0">
-                            <h4>Albert Castro</h4>
-                            <h5>3D Designer &amp; Prototyper</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
     <section class="row timeline">
         <div class="container">
             <div class="row section-header wow fadeInUp">
@@ -753,19 +453,7 @@
 
             </div>
             
-            <!-- <form action="php/subscribe.php" id="subscribeform" class="row newsletter-form" method="post">
-                <div class="input-group">
-                    <input type="email" class="form-control" name="email" placeholder="Enter Your Email Address">
-                    <span class="input-group-addon">
-                        <button type="submit" id="js-subscribe-btn"><img src="images/right-angle-white.png" alt=""></button>
-                    </span>
-                </div>
-                <div id="js-subscribe-result" class="text-center" data-success-msg="Almost finished. Please check your email and verify." data-error-msg="Oops. Something went wrong.">
-                    <p>
-                        <img src="images/protect.png" alt="">No Spam. We Promise. Unsubscribe anytime.
-                    </p>
-                </div>
-            </form> -->
+           
         </div>
     </section>
     <!-- <section class="row contact" id="contact">
@@ -852,18 +540,14 @@
             </div>
         </div>
         <div class="product-desc">
-            <form action="#" method="POST" target="_top" class="choose-form row m0" id="paypal-regn">
-                <!-- https://www.paypal.com/cgi-bin/webscr -->
                 <div id="js-product-info" class="product-info">
                     
                     <h2 class="edition">Moment</h2>
                     
                     <h2 class="price">£200 + £15/m <span class="label label-default">only 44 more devices available</span></h2>
-                    <div class="row m0 description">
-                        <p>Estimate to ship at June 2020. Fully refundable.</p>
-                    </div>
-                    <div class="row m0 description">
-                        <p>For more detail please contact us at hello@getmoment.today</p>
+                    <div class="row m0 description">    
+                        <p>Estimate to ship at June 2020. </p>   
+                        <!-- <p>For more detail please contact us at hello@getmoment.today</p> -->
                     </div>
                    <!--  <div class="choose-options row m0" id="js-choose-color">
                         <div class="option">
@@ -876,64 +560,17 @@
                     </div> -->
 
                 </div>
-                <div class="personal-info" id="js-personal-info">
-                    <div class="form-group text-center"><a href="javascript:void(0);" class="btn" id="prev-product-info">Go Back</a></div>
-                    <div class="row">
-                        <div class="form-group col-sm-6">
-                            <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
-                        </div>
-                    </div>
-                   <!--  <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="address1" class="form-control" placeholder="Address Line 1" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="address2" class="form-control" placeholder="Address Line 2" required>
-                    </div>
-                    <div class="row">
-                        <div class="form-group col-sm-6">
-                            <input type="text" name="state" class="form-control" placeholder="State" required>
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <input type="text" name="zip" class="form-control" placeholder="Zip Code" required>
-                        </div>
-                    </div> -->
-                    <div class="form-group">
-                        <select class="form-control" name="Country" required>
-                            <option selected value="">Choose a country</option>
-                            <option value="United States">United States</option>
-                            <option value="United Kingdom">United Kingdom</option>
-                            <option value="Australia">Australia</option>
-                            <option value="India">India</option>
-                        </select>
-                    </div>
-                    <!-- <input type="hidden" name="cmd" value="_xclick">
-                    <input type="hidden" name="business" value="surjithctly-facilitator@gmail.com">
-                    <input type="hidden" name="lc" value="IN">
-                    <input type="hidden" name="item_name" value="Smart Watch Sports Edition">
-                    <input type="hidden" name="item_number" value="AS1500">
-                    <input type="hidden" name="amount" value="299.00">
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="hidden" name="button_subtype" value="services">
-                    <input type="hidden" name="no_note" value="0">
-                    <input type="hidden" name="tax_rate" value="5.000">
-                    <input type="hidden" name="shipping" value="10.00">
-                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-                    <input type="hidden" name="on0" value="Color">
-                    <input type="hidden" name="on1" value="Size"> -->
-                    <!-- <input type="hidden" name="notify_url" value="https://demo.web3canvas.com/themeforest/proland/php/verify-ipn.php"> -->
-                    <!-- <input type="hidden" name="return" value="http://demo.web3canvas.com/themeforest/proland/success.html"> -->
-                    <!-- <input type="hidden" name="cancel_return" value="http://demo.web3canvas.com/themeforest/proland/index_buy_paypal.html"> -->
-                    <div class="submit-area-2 row m0">
-                        <button type="submit" class="btn btn-rounded js-preorder-btn btn-block"><span>Pay with Paypal</span></button>
-                        <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </div>
-                </div>
+              <form id="payment-form">
+              <div id="card-element"><!--Stripe.js injects the Card Element--></div>
+              <button id="submit" class="pay_btn">
+                <div class="spinner hidden" id="spinner"></div>
+                <span id="button-text">Pay</span>
+              </button>
+              <p id="card-errors" role="alert"></p>
+              <p class="result-message hidden">
+                Payment succeeded, go back to
+                <a href=""> Home</a> and we will send you an invoice very soon.
+              </p>
             </form>
         </div>
     </div>
@@ -1063,16 +700,14 @@
             </form>
         </div>
     </div> -->
-    <script data-cfasync="false" src="https://demo.web3canvas.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <!-- <script data-cfasync="false" src="https://demo.web3canvas.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
     <script src="https://demo.web3canvas.com/themeforest/proland/js/lib/jquery-2.2.0.min.js"></script>
     <script src="https://demo.web3canvas.com/themeforest/proland/js/lib/bootstrap.min.js"></script>
     <script src="https://demo.web3canvas.com/themeforest/proland/vendors/owl-carousel/owl.carousel.js"></script>
     <script src="https://demo.web3canvas.com/themeforest/proland/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="https://demo.web3canvas.com/themeforest/proland/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
     <script src="https://demo.web3canvas.com/themeforest/proland/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="https://demo.web3canvas.com/themeforest/proland/js/plugins/gmaps.min.js"></script>
-    <script src="https://demo.web3canvas.com/themeforest/proland/js/plugins/google-map.js"></script>
+
     <script src="https://demo.web3canvas.com/themeforest/proland/js/plugins/wow.min.js"></script>
     <script src="https://demo.web3canvas.com/themeforest/proland/js/plugins/validate.js"></script>
     <script src="https://demo.web3canvas.com/themeforest/proland/js/includes/pre-order.js"></script>
